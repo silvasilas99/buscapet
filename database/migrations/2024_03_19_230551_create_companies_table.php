@@ -25,8 +25,8 @@ return new class extends Migration
             $table->string("opening_hours_and_dates");
             $table->string("contact_name");
             $table->string("cnpj");
-            $table->boolean("accepted_terms_of_use");       // TODO: Talk about versions and auditing of Entities
-            $table->boolean("accepted_privacy_policy");     // instead of this booleans
+            $table->boolean("accepted_terms_of_use");
+            $table->boolean("accepted_privacy_policy");
             $table->boolean("accepted_marketing_sending");
             $table->boolean("accepted_terms_and_conditions");
             $table->timestamps();
